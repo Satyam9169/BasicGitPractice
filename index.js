@@ -17,3 +17,4 @@ function newScreen() {
 }
 
 const homeScreen = () => console.log("Home Screen");
+const otherScreen = () => console.log("other Screen");
