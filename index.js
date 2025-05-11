@@ -12,6 +12,7 @@ function newFeature() {
   console.log("This is a new feature");
 }
 
+const value = 42;
 
 function newScreen() {
   console.log("This is a new screen");
