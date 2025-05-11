@@ -1,7 +1,4 @@
 const name = "John Doe";
 
-function sum(a, b){
-    return a + b
-}
-
-sum(5, 10);
+const age = 30;
+const department = "Engineering";
