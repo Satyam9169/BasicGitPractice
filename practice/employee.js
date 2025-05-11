@@ -92,5 +92,15 @@ function validateEmployees(employees) {
 
 // Validate employees before exporting
 validateEmployees(employees);
+// show the name of employee over browser
+employees.forEach(employee => {
+    console.log(`Employee Name: ${employee.name}`);
+    // You can also use document.write() if you want to display it on a web page
+    // document.write(`Employee Name: ${employee.name}<br>`);
+    const respose = document.createElement('div');
+    respose.innerHTML = `Employee Name: ${employee.name}`;
+    document.body.appendChild(respose);
+    document.write(`Employee Name: ${employee.name}<br>`);
+})
 
 module.exports = employees;
