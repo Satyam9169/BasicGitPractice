@@ -9,6 +9,5 @@ console.log(App(2, 3));
 
 console.log("Hello, World!");
 function newFeature() {
-    console.log("This is a new feature");
+  console.log("This is a new feature");
 }
-
