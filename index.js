@@ -11,6 +11,8 @@ console.log("Hello, World!");
 function newFeature() {
   console.log("This is a new feature");
 }
-function newScreen1() {
-  console.log("This is a new screen1");
+
+
+function newScreen() {
+  console.log("This is a new screen");
 }
